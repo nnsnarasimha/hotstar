@@ -9,5 +9,12 @@ pipeline {
 
             }
         }
+        stage('Hello') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'Hi'
+
+            }
+        }
     }
 }
